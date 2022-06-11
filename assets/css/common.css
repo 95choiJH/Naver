@@ -1,0 +1,57 @@
+/* 공통으로 사용가능한 소스 */
+body {
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    min-width: 1190px;
+}
+.blind {
+    position: absolute;
+    width: 1px; height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+.inner {
+    width: 1130px;
+    margin: 0 auto;
+}
+.header-area .logo, .header-area .search-area button::after,
+.header-area .service-area a.link-start::after,
+.sc-news .group-title .set-area .btn-set::after,
+.sc-cardnews .navi .btn::after,
+.sc-recipe .set-area i,
+.sc-recipe .category .btn i,
+.funding-content .title::after,
+.btn-morewrap .btn-more::before,
+.footer-area .notice-area .service::after {
+    background-image: url(../images/sp_main_dba1af.png);
+    background-repeat: no-repeat;
+    background-size: 457px; /* 2배 줄여서 사용, 원본이 914px */
+}
+.sc-trendshopping .navi-shop .title::before,
+.sc-trendshopping .navi-shop .title::after,
+.sc-trendshopping .page .btn::before,
+.plusdeal .plusdeal-logo::before,
+.plusdeal .plusdeal-goods .plusdeal-thumbwrap .plusdeal-rightthumb::before {
+    background-image: url(../images/sp02.png);
+    background-repeat: no-repeat;
+    background-size: 107px;
+}
+.img-bd {
+    display: block;
+    position: relative;
+}
+.img-bd::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border: 1px solid #000;
+    opacity: .1;
+}
+.bar {
+    float: left;
+    width: 1px; height: 10px;
+    background: #ccc;
+    margin: 3px 7px;
+}

@@ -1,0 +1,292 @@
+@import './reset.css';
+@import './common.css';
+
+/* 헤더+푸터 놓는곳, 모든 사이트에서 사용 */
+
+.header-area .logo-area {
+    border-bottom: 1px solid #e4e8eb;
+}
+.header-area .logo-area .inner {
+    position: relative;
+    height: 160px;
+}
+.header-area .logo {
+    width: 222px; height: 52px;
+    background-position: 0 -158px;
+    position: absolute;
+    top: 50%;
+    left: -9px;
+    margin-top: -32px;
+}
+.header-area .logo a {
+    display: block;
+    height: 100%;
+}
+.header-area .search-area {
+    position: relative;
+    width: 582px;
+    height: 52px;
+    border: 2px solid #19ce60;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 238px;
+    margin-top: -28px;
+}
+.header-area .search-area input {
+    width: 444px;
+    height: 24px;
+    padding: 13px 15px;
+    margin: 1px;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 700;
+    outline: 0;
+}
+.header-area .search-area button {
+    position: absolute;
+    top: -2px; right: 0;
+    width: 56px; height: 56px;
+    background: #19ce60;
+}
+.header-area .search-area button::after {
+    content: '';
+    display: inline-block;
+    width: 22px; height: 22px;
+    background-position: -420px 0;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.header-area .service-area {
+    position: absolute;
+    top: 12px;
+    right: 27px;
+}
+.header-area .service-area a {float: left;}
+.header-area .service-area a.link-start::after {
+    content: '';
+    display: inline-block;
+    width: 26px; height: 26px;
+    vertical-align: top;
+    margin: -3px 0 0 3px;
+    background-position: -308px -345px;
+}
+.header-area .gnb-area {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+.header-area .gnb-area .inner::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.header-area .gnb-area .gnb-wrap {
+    float: left;
+}
+.header-area .gnb-area .gnb-list {
+    padding: 11px 0;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.header-area .gnb-area .gnb-list::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.header-area .gnb-area .gnb-item {
+    float: left;
+    color: #19ce60;
+}
+.header-area .gnb-area .gnb-item+.gnb-item {
+    margin-left: 12px;
+}
+.header-area .gnb-area .weather-area {
+    float: right;
+}
+.container {
+    width: 1130px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.footer-inner {
+    padding: 0 30px 92px;
+}
+.footer-area {
+    background-color: #fafbfc;
+    border-top: 1px solid #e4e8eb;
+}
+.footer-banner-area {
+    padding: 24px 0;
+    border-bottom: 1px solid #e4e8eb;
+}
+.footer-area .banner-wrap {
+    overflow: hidden;
+}
+.footer-area .banner-wrap .banner-item {
+    float: left;
+    width: 350px;
+    height: 86px;
+}
+.footer-area .banner-wrap .banner-item+.banner-item {
+    margin-left: 40px;
+}
+.footer-area .banner-wrap .banner-item-wrap {
+    display: block;
+    overflow: hidden;
+}
+.banner-wrap .banner-item .banner-thumb {
+    float: left;
+    width: 160px;
+    height: 86px;
+}
+.banner-wrap .banner-item .banner-info {
+    overflow: hidden;
+    height: 86px;
+    padding: 2px 2px 0 16px;
+    font-size: 12px;
+    line-height: 1.25;
+    box-sizing: border-box;
+}
+.banner-wrap .banner-item .banner-thumb img {
+    width: inherit;
+}
+.banner-info .banner-subtitle {
+    display: block;
+    color: #58c464;
+    font-weight: bold;
+}
+.banner-info .banner-title {
+    display: block;
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.banner-info .dsc {
+    margin-top: 8px;
+}
+.banner-info .dsc, .dsc2 {
+    display: block;
+    line-height: 18px;
+    color: #424242
+}
+
+.footer-area .notice-area {
+    padding: 16px 0 15px;
+    border-bottom: 1px solid #e4e8eb;
+    overflow: hidden;
+}
+.footer-area .notice-area .notice {
+    float: left;
+    font-weight: bold;
+}
+.footer-area .notice-area .service {
+    float: right;
+    font-weight: bold;
+}
+.footer-area .notice-area .service::after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    background-position: -444px -268px;
+    margin-left: 10px;
+    vertical-align: -2px;
+}
+.aside-area {
+    overflow: hidden;
+    border-bottom: 1px solid #e4e8eb;
+}
+.aside-area .aside-left {
+    float: left;
+    width: 780px;
+    padding: 20px 0;
+}
+.aside-area .aside-left .left-content {
+    overflow: hidden;
+}
+.aside-area .aside-left .left-content+.left-content {
+    margin-top: 9px;
+}
+.aside-area .aside-left .title {
+    float: left;
+    width: 87px;
+    font-weight: bold;
+}
+.aside-area .aside-left .link {
+    float: left;
+    color: #777;
+}
+.aside-area .aside-left .link+.link::before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    background-color: #e4e8eb;
+    vertical-align: -1px;
+    margin: 0 8px;
+}
+.aside-area .aside-right {
+    float: right;
+    width: 350px;
+    padding: 28px 0;
+    overflow: hidden;
+}
+.aside-area .aside-service {
+    float: left;
+    overflow: hidden;
+}
+.aside-area .aside-service+.aside-service {
+    margin-left: 50px;
+}
+.aside-service .service-info {
+    float: left;
+}
+.aside-service .service-info .title {
+    padding-top: 2px;
+    font-weight: bold;
+}
+.aside-service .service-info .dsc {
+    display: block;
+    padding-top: 2px;
+    color: gray;
+}
+.aside-area .aside-service .service-img-wrap {
+    float: right;
+    display: block;
+    margin-left: 12px;
+}
+.aside-area .aside-service .service-img {
+    width: 48px; height: 48px;
+}
+.corp-area {
+    padding-top: 25px;
+    color: #777;
+    overflow: hidden;
+}
+.corp-area .corp-item {
+    float: left;
+}
+.corp-area .corp-item+.corp-item:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    margin: 0 8px;
+    background-color: #e4e8eb;
+    vertical-align: -1px;
+}
+.corp-area .addr {
+    float: left;
+    color: #202020;
+    font-weight: bold;
+    margin-left: 13px;
+}

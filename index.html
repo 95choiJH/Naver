@@ -1,0 +1,917 @@
+<!-- 
+    inner > 
+            width 잡고 중앙정렬
+
+    ul > 000목록, 000리스트 3,4개, 네비게이션
+    a > 그냥 나열
+
+    img태그는 이미지컨텐츠한테 쓰는게 적당
+    [아이콘 x, 로고x]
+
+    단독 - span 의미가 떨어짐
+    p태그 문장,단락,제목,내용
+
+    em > 단어 강조
+    strong > 문장 강조
+ -->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <header class="header-area">
+        <div class="logo-area">
+            <div class="inner">
+                <h1 class="logo"><a href=""><span class="blind">네이버</span></a></h1>
+                <div class="search-area">
+                    <form action="" method="get">
+                        <fieldset>
+                            <legend class="blind">검색</legend>
+                            <input type="text">
+                            <button type="button"><span class="blind">검색</span></button>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="service-area">
+                    <a href="" class="link-start">네이버를 시작페이지로</a><i class="bar"></i>
+                    <a href="" class="link-junior">쥬니어 네이버</a>
+                    <a href="" class="link-bin">해피빈</a>
+                </div>
+            </div>
+        </div>
+        <div class="gnb-area">
+            <div class="inner">
+                <nav class="gnb-wrap">
+                    <ul class="gnb-list">
+                        <li class="gnb-item"><a href="">메일</a></li>
+                        <li class="gnb-item"><a href="">메일</a></li>
+                        <li class="gnb-item"><a href="">메일</a></li>
+                        <li class="gnb-item"><a href="">메일</a></li>
+                        <li class="gnb-item"><a href="">메일</a></li>
+                        <li class="gnb-item"><a href="">메일</a></li>
+                    </ul>
+                </nav>
+                <div class="weather-area">
+                    날씨영역
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="left-area">
+            <div class="ad-top">
+                <a href="" class="link-ad img-bd">
+                    <img src="./assets/images/banner01.jpg" alt="">
+                </a>
+            </div>
+            <section class="sc-news">
+                <h2 class="blind">뉴스영역</h2>
+                <div class="group-issue">
+                    <div class="issue-area">
+                        <a href="" class="link-media">연합뉴스</a>
+                        <a href="" class="link-issue">[후보등록] 1인당 평균재산 8억5천…男 12%는 병역 못 마쳐</a>
+                    </div>
+                    <div class="direct-area">
+                        <a href="" class="link-home">뉴스홈</a>
+                        <a href="" class="link-direct">연예</a>
+                        <a href="" class="link-direct">스포츠</a>
+                        <a href="" class="link-direct">지방선거</a>
+                    </div>
+                </div>
+                <div class="group-title">
+                    <a href="" class="link-title">뉴스스탠드</a>
+                    <div class="sort-area">
+                        <a href="" class="btn-sort">구독한 언론사</a>
+                        <a href="" class="btn-sort">전체언론사</a>
+                    </div>
+                    <div class="set-area">
+                        <a href="" class="btn-set ic-list"><span class="blind">리스트형</span></a>
+                        <a href="" class="btn-set ic-thumb"><span class="blind">썸네일형</span></a>
+                        <a href="" class="btn-set ic-set"><span class="blind">설정</span></a>
+                    </div>
+                </div>
+                <div class="group-list">
+                    <ul class="media-list">
+                        <li class="media-item"><a href=""><img src="./assets/images/news.png" alt=""></a></li>
+                        <li class="media-item"><a href=""><img src="./assets/images/news.png" alt=""></a></li>
+                        <li class="media-item"><a href=""><img src="./assets/images/news.png" alt=""></a></li>
+                        <li class="media-item"><a href=""><img src="./assets/images/news.png" alt=""></a></li>
+                    </ul>
+                    <i class="vt-line vt01"></i>
+                    <i class="vt-line vt02"></i>
+                    <i class="vt-line vt03"></i>
+                    <i class="vt-line vt04"></i>
+                    <i class="vt-line vt05"></i>
+                    <i class="hr-line hr01"></i>
+                    <i class="hr-line hr02"></i>
+                    <i class="hr-line hr03"></i>
+                </div>
+            </section>
+
+            <!-- @레시피부분 코딩진행 -->
+            <section class="sc-recipe">
+                <div class="group-title">
+                    <strong class="title">오늘 읽을만한 글</strong>
+                    <span class="title-dsc">주제별로 분류된 다양한 글 모음</span>
+                    <div class="info-area">
+                        <em class="num">704</em>
+                        <span class="num-dsc">개의 글</span><i class="bar"></i>
+                        <a href="" class="set-area">
+                            <i class="ic-set"></i>
+                            관심주제 설정
+                        </a>
+                    </div>
+                </div>
+                <div class="category">
+                    <a href="" class="btn prev"><i class="ic-btn"><span class="blind">이전</span></i></a>
+                    <a href="" class="btn next"><i class="ic-btn"><span class="blind">다음</span></i></a>
+                    <ul class="cate-title">
+                        <li class="cate-item"><a href="" class="btn-item enter">엔터</a></li>
+                        <li class="cate-item"><a href="" class="btn-item sports">스포츠</a></li>
+                        <li class="cate-item"><a href="" class="btn-item automobile">자동차</a></li>
+                        <li class="cate-item"><a href="" class="btn-item webtoon">웹툰</a></li>
+                        <li class="cate-item"><a href="" class="btn-item economy">경제M</a></li>
+                        <li class="cate-item"><a href="" class="btn-item reco-sub">추천·구독</a></li>
+                        <li class="cate-item"><a href="" class="btn-item recipe">레시피</a></li>
+                        <li class="cate-item"><a href="" class="btn-item living">리빙</a></li>
+                        <li class="cate-item"><a href="" class="btn-item book">책방</a></li>
+                        <li class="cate-item"><a href="" class="btn-item beauty">패션뷰티</a></li>
+                    </ul>
+                </div>
+                <div class="recipe-contents">
+                    <div class="contents">
+                        <ul class="main-content">
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <img src="./assets/images/recipe01.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <strong class="recipe-cate">[푸드클래스] 신호섭 셰프</strong>
+                                        <h2 class="title rowtitle">면 요리 좋아하는 남녀노소를 위한 메뉴</h2>
+                                        <p class="recipe-dsc">입에 착 붙는 간장 양념이 포인트<br>다진 홍고추와 견과류를 고명으로 올려요</p>
+                                        <span class="recipe-hash">#두부국수 #한그릇요리</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <img src="./assets/images/recipe02.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <strong class="recipe-cate">[오늘의 푸드TV] 고요한 산사의 풍경소리</strong>
+                                        <h2 class="title rowtitle">봄이라 좋다! 엄나무순 대패삼겹살 말이</h2>
+                                        <p class="recipe-dsc">고기 돌돌 말아 풀리지 않게 구워 먹으면<br>입안에 퍼지는 향과 건강한 맛이 가득</p>
+                                        <span class="recipe-hash">#제철요리 #별미메뉴</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-content contents">
+                        <ul class="col-content">
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <img src="./assets/images/recipe03.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <em class="recipe-cate">레시피</em>
+                                        <h2 class="title">힐링하기 좋은 '뷰 맛집' 서울 고층 카페 5</h2>
+                                        <p class="recipe-dsc">여긴 몰랐지? 북적거리지 않는 서울의 '뷰 맛집' 카페. 인사동
+                                            소진담<br>@sojindam_anyounginsadong카페 소진담은 신사동, 하남, 인천 청라에서도 만날 수 있는 수제 케이크
+                                            맛집이다. 조각 케이크라고 부를 수 없는 큼지막한 케이크가 종류별로 다양하게 준비되어 있고, 특히 인사동점은 나인트리 호텔과 연결되어
+                                            있어 세련되고 깔끔한 인테리</p>
+                                        <div class="source">
+                                            <span class="copy">에스콰이어 코리아</span>
+                                            <span class="date">5일 전</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <img src="./assets/images/recipe04.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <em class="recipe-cate">레시피</em>
+                                        <h2 class="title">사계절에 따라 골라 먹는 제철 수산물</h2>
+                                        <p class="recipe-dsc">사계절에 골라 먹는 제철 모둠회🐟 벌써 2022년도 5월이 되었습니다. 시간이 정말 빠른데요! 계절이
+                                            바뀌면서 제철음식도 바뀌고 있습니다. 오늘은 5월 제철 회 소개와 계절별 제철 수산물을 소개해 드릴 텐데요. 여러분은 회를 좋아하시나요?
+                                            회를 좋아한다면 초장파, 간장파로 나뉠 정도로 회 열풍에 진심인 분들도 계실 것 같아요. 언제 먹어도 맛있는 수산물!</p>
+                                        <div class="source">
+                                            <span class="copy">농이터</span>
+                                            <span class="date">4일 전</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <img src="./assets/images/recipe05.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <em class="recipe-cate">레시피</em>
+                                        <h2 class="title">뇨끼 만들기 감자뇨끼 만드는법 뇨끼 반죽부터 소스까지(+이탈리아요리)</h2>
+                                        <p class="recipe-dsc">안녕하세요. 요즘 딸이 가끔 점심을 먹고 나가는데 오늘이 그날이었어요. 늦게 나가는 만큼 늦게
+                                            들어오고요. 이런 날은 하루가 유난히 길게 느껴져요. 저녁식사가 열시 근처가 되거든요. 딸아이 점심으로 뇨끼를 해먹였어요. 딸은
+                                            크림소스가 싫다 해서 버터에 볶아 치즈가루 뿌려서 먹였고요. 저는 또 크림파잖아요. 크림소스 진하게 만들어 따로 만들어 먹었어요. 뇨끼
+                                        </p>
+                                        <div class="source">
+                                            <span class="copy">퍼플레인</span>
+                                            <span class="date">1개월 전</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <img src="./assets/images/recipe06.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <em class="recipe-cate">레시피</em>
+                                        <h2 class="title">박나래 감자수프 만들기, 페이스트리(페이스트리) 생지 넣어 특별한 홈파티 음식 레시피!(ft.나혼자산다)
+                                        </h2>
+                                        <p class="recipe-dsc">박나래 감자스프 만들기, 패스츄리(패스트리) 생지 넣어 특별한 홈파티 음식 레시피!(ft.나혼자산다)
+                                            홈파티 요리로 너무 근사한 박나래 감자스프 레시피 만들어봤어요. 나혼자산다 박나래 요리실력은 너무 유명하죠? 박나래 패스츄리 감자스프는
+                                            평범한 감자스프를 호텔 감자스프처럼 근사하게 만들어 홈파티 음식으로 너무 좋아요. 감자스프 만들기는 너무 간단하고, 패스</p>
+                                        <div class="source">
+                                            <span class="copy">산뜻한 요리</span>
+                                            <span class="date">1개월 전</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="middle-content contents">
+                        <ul class="row-content">
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <img src="./assets/images/recipe07.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <strong class="title">단돈 천 원! 밀가루 없는 팽이버섯 요리</strong>
+                                        <div class="source">
+                                            <span class="copy">냠냠간단요리</span>
+                                            <span class="date">3주일 전</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <img src="./assets/images/recipe08.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <strong class="title">키친타올로 양배추 3개월 싱싱하게</strong>
+                                        <div class="source">
+                                            <span class="copy">백년밥상TV</span>
+                                            <span class="date">2년 전</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <img src="./assets/images/recipe09.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <strong class="title">사 먹을 필요 없어요! 마성의 깻잎 떡볶이</strong>
+                                        <div class="source">
+                                            <span class="copy">냠냠간단요리</span>
+                                            <span class="date">1주일 전</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom-content contents">
+                        <ul class="col-content">
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <img src="./assets/images/recipe10.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <em class="recipe-cate">레시피</em>
+                                        <h2 class="title">우리집 장바구니 공개하고 네이버 메인에 떴어요!</h2>
+                                        <p class="recipe-dsc">안녕하세요. 네이버 레시피에요. 이웃님들의 장바구니 공개를 보며 배운 가성비 꿀팁으로 오늘 아침 저렴하게
+                                            장보기 성공했습니다+_+ 이번주도 이웃님들의 장보기 꿀팁과 좋은 레시피 공유해주셔서 정말 감사드리며 14회차 모집 안내와 함께 13회차
+                                            우수 당첨자를 발표합니다 <14회차 장바구니 이벤트 모집> ■ 참여 혜택 1. 참여자 전원 네이버 장보기 20% 할인</p>
+                                        <div class="source">
+                                            <span class="copy">리빙N레시피</span>
+                                            <span class="date">3일 전</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <img src="./assets/images/recipe11.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <em class="recipe-cate">레시피</em>
+                                        <h2 class="title">닭강정 만드는 법 매콤한 닭강정 만들기 닭가슴살로 만드는 순살 닭강정 양념레시피</h2>
+                                        <p class="recipe-dsc">배달 음식들 중에 손꼽는 메뉴는 당연히 치킨이 아닐까요 집에서 닭을 튀기는 건 기름도 사방에 튀고
+                                            보통일이 아니니까요 그럼에도 요번엔 집에서 닭강정을 만들어 봤어요ㅎ 다이어트용으로 냉동실에 모셔 둔 닭가슴살을 살짝 용도 변경했지욤^^
+                                            닭가슴살이 좀 퍽퍽한 맛이 있어서 가늘게 썰고 동글동글 말아서 튀겼더니 퍽퍽한 맛이 싹 사라지네요.ㅎ 달콤한 소스도 좋지만 </p>
+                                        <div class="source">
+                                            <span class="copy">주말유정</span>
+                                            <span class="date">1개월 전</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <img src="./assets/images/recipe12.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <em class="recipe-cate">레시피</em>
+                                        <h2 class="title">차돌박이 솥밥 만드는방법 솥밥 만들기 맛있는 솥밥 차돌박이 솥밥</h2>
+                                        <p class="recipe-dsc">전기밥솥으로 하는 밥이 아닌 냄비나 압력솥에 하는 밥은 밥 맛부터가 다르죠 꼬들꼬들 밥알 하나가 하나가
+                                            살아있는 맛~ 오늘은 살아있는 밥맛을 느끼고 싶어서 솥밥을 만들건데 고소한 차돌박이도 듬뿍 올릴거에요 뭔가 특별한 한그릇 음식을
+                                            원하셨다면 윤기가 차르르 흐르는 차돌박이 솥밥 어때요? 이제 함께 요리하러 가볼까요~~ 차돌박이 솥밥 재료준비 차돌박이 300</p>
+                                        <div class="source">
+                                            <span class="copy">Jenny</span>
+                                            <span class="date">1개월 전</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <img src="./assets/images/recipe13.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <em class="recipe-cate">레시피</em>
+                                        <h2 class="title">김치볶음 만들기 두부김치볶음 두부김치 만드는 법</h2>
+                                        <p class="recipe-dsc">들기름 김치볶음으로 두부김치 만드는 법입니다. 오늘의 요리는 또 신 김치 요리에요^^ 친구가 적당히 신
+                                            맛있는 김치를 가져와서 열심히 먹고 있어요 ㅎㅎ 이번에는 김치볶음을 만들었는데 구수하고 고소하게 들깨 가루도 넣고 들기름 김치볶음으로
+                                            만들었어요. 신김치볶음은 맛있게 밥반찬으로 먹고 두부김치도 만들었는데 두부김치 만드는 법은 구운 두부에 김치볶음을 끼어</p>
+                                        <div class="source">
+                                            <span class="copy">예쁜밥</span>
+                                            <span class="date">1개월 전</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="funding-content">
+                        <a href="" class="title">마음까지 채우는 클릭</a>
+                        <ul class="row-content">
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <span class="funding-mark">펀딩</span>
+                                        <img src="./assets/images/recipe14.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <h2 class="title">제주 소상공인을 응원하는 600년 전통 상웨빵</h2>
+                                        <div class="source">
+                                            <span class="copy">바다마을우정국</span>
+                                            <span class="goal"><em class="per">574%</em>달성</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <span class="funding-mark">펀딩</span>
+                                        <img src="./assets/images/recipe15.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <h2 class="title">한라산 약초로 만든 펫간식과 펫샴푸바</h2>
+                                        <div class="source">
+                                            <span class="copy">프롬한라</span>
+                                            <span class="goal"><em class="per">417%</em>달성</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="recipe-list">
+                                <a href="" class="recipe-thumbwrap">
+                                    <div class="recipe-thumb img-bd">
+                                        <span class="funding-mark">펀딩</span>
+                                        <img src="./assets/images/recipe16.jpg" alt="" class="recipe-img">
+                                    </div>
+                                    <div href="" class="recipe-info">
+                                        <h2 class="title">믿고 먹을 수 있는 무방부제 샘물 국수</h2>
+                                        <div class="source">
+                                            <span class="copy">경기도주식회사</span>
+                                            <span class="goal"><em class="per">301%</em>달성</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-morewrap">
+                        <button class="btn-more">새로운 글 더보기</button>
+                    </div>
+                </div>
+            </section>
+        </div><!-- //left-area -->
+
+        <div class="right-area">
+            <section class="sc-login">
+                <h2 class="blind">로그인</h2>
+                <p class="login-msg">네이버를 더 안전하고 편리하게 이용하세요</p>
+                <a href="" class="link-login"><span class="blind">네이버</span>로그인</a>
+                <div class="sub-area">
+                    <a href="" class="link-id">아이디</a>
+                    <a href="" class="link-find">비밀번호찾기</a>
+                    <a href="" class="link-join">회원가입</a>
+                </div>
+            </section>
+
+            <section class="sc-cardnews">
+                <h2 class="blind">증시 및 주요이슈</h2>
+                <a href="" class="link-news">
+                    <em class="badge">이슈</em>
+                    <span class="news">코로나바이러스 19 현황</span>
+                </a>
+                <div class="navi">
+                    <a href="" class="btn prev"><span class="blind">이전</span></a>
+                    <a href="" class="btn next"><span class="blind">다음</span></a>
+                </div>
+            </section>
+
+            <div class="ad-right">
+                <a href="" class="link-ad img-bd">
+                    <img src="./assets/images/banner02.jpg" alt="">
+                </a>
+            </div>
+
+            <!-- @상품영역 -->
+            <section class="sc-trendshopping">
+                <div class="navi-shop">
+                    <a href="" class="title">트렌드쇼핑</a>
+                    <ul class="menu-shop">
+                        <li class="menu-wrap"><a href="" class="item">상품</a></li>
+                        <li class="menu-wrap"><a href="" class="mall">쇼핑몰</a></li>
+                        <li class="menu-wrap"><a href="" class="men">MEN</a></li>
+                        <li class="menu-wrap"><a href="" class="plus">원쁠딜</a></li>
+                    </ul>
+                </div>
+                <div class="shopping-wrap">
+                    <nav class="sort-mall">
+                        <h2 class="blind">몰 바로가기</h2>
+                        <div class="area-mall top">
+                            <a href="" class="name-mall coupang"><em>쿠팡</em></a>
+                            <a href="" class="name-mall gmarket"><span class="circle"></span>G마켓</a>
+                            <a href="" class="name-mall auction"><span class="circle"></span>옥션</a>
+                            <a href="" class="name-mall 11st"><span class="circle"></span>11번가</a>
+                            <a href="" class="name-mall tmon"><span class="circle"></span>티몬</a>
+                            <a href="" class="name-mall oliveyoung"><span class="circle"></span><em>올리브영</em></a>
+                        </div>
+                        <div class="area-mall bottom">
+                            <a href="" class="name-mall wemakeprice">위메프</a>
+                            <a href="" class="name-mall ssg"><span class="circle"></span><em>SSG닷컴</em></a>
+                            <a href="" class="name-mall gsshop"><span class="circle"></span>GS샵</a>
+                            <a href="" class="name-mall lottemmall"><span class="circle"></span>롯데i몰</a>
+                            <a href="" class="name-mall cj"><span class="circle"></span><em>CJ온스타일</em></a>
+                            <a href="" class="name-mall fashionplus"><span class="circle"></span>패션플러스</a>
+                        </div>
+                    </nav>
+                    <div class="shop-item">
+                        <div class="page page-top">
+                            <span class="page-num">
+                                <em class="current-num">1</em>
+                                / 18
+                            </span>
+                            <a href="" class="btn prev"><span class="blind">이전</span></a>
+                            <a href="" class="btn next"><span class="blind">다음</span></a>
+                        </div>
+                        <ul class="item-wrap">
+                            <li class="sort-item">
+                                <a href="" class="item-thumbwrap">
+                                    <div class="item-thumb img-bd"><img src="assets/images/item01.jpg" alt=""
+                                            class="item-img"></div>
+                                    <div href="" class="item-info">
+                                        <strong class="title">일상복으로도OK~!</strong>
+                                        <p class="dsc">핏예쁜 운동복1+1</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sort-item">
+                                <a href="" class="item-thumbwrap">
+                                    <div class="item-thumb img-bd">
+                                        <img src="assets/images/item02.jpg" alt="" class="item-img">
+                                    </div>
+                                    <div href="" class="item-info">
+                                        <strong class="title">가루날림 없는</strong>
+                                        <p class="dsc">팔레트 30%할인!</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sort-item">
+                                <a href="" class="item-thumbwrap">
+                                    <div class="item-thumb img-bd">
+                                        <img src="assets/images/item03.jpg" alt="" class="item-img">
+                                    </div>
+                                    <div href="" class="item-info">
+                                        <strong class="title">이거하나 바꾸고</strong>
+                                        <p class="dsc">환벽한 주방 됐어</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sort-item">
+                                <a href="" class="item-thumbwrap">
+                                    <div class="item-thumb img-bd">
+                                        <img src="assets/images/item04.jpg" alt="" class="item-img">
+                                    </div>
+                                    <div href="" class="item-info">
+                                        <strong class="title">여기 아직 몰라?</strong>
+                                        <p class="dsc">너만빼고 다알아!</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sort-item">
+                                <a href="" class="item-thumbwrap">
+                                    <div class="item-thumb img-bd">
+                                        <img src="assets/images/item05.jpg" alt="" class="item-img">
+                                    </div>
+                                    <div href="" class="item-info">
+                                        <strong class="title">주말할인 최대50%</strong>
+                                        <p class="dsc">1만원대득템해요</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sort-item">
+                                <a href="" class="item-thumbwrap">
+                                    <div class="item-thumb img-bd">
+                                        <img src="assets/images/item06.jpg" alt="" class="item-img">
+                                    </div>
+                                    <div href="" class="item-info">
+                                        <strong class="title">미리 만나는 여름</strong>
+                                        <p class="dsc">BEST 극찬 할인</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sort-item">
+                                <a href="" class="item-thumbwrap">
+                                    <div class="item-thumb img-bd">
+                                        <img src="assets/images/item07.jpg" alt="" class="item-img">
+                                    </div>
+                                    <div href="" class="item-info">
+                                        <strong class="title">60개2만원대진짜?</strong>
+                                        <p class="dsc">쟁여두고쏙쏙먹어</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sort-item">
+                                <a href="" class="item-thumbwrap">
+                                    <div class="item-thumb img-bd">
+                                        <img src="assets/images/item08.jpg" alt="" class="item-img">
+                                    </div>
+                                    <div href="" class="item-info">
+                                        <strong class="title">하루종일 앉아도</strong>
+                                        <p class="dsc">엉덩이 안 아파!</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sort-item">
+                                <a href="" class="item-thumbwrap">
+                                    <div class="item-thumb img-bd">
+                                        <img src="assets/images/item09.jpg" alt="" class="item-img">
+                                    </div>
+                                    <div href="" class="item-info">
+                                        <strong class="title">지금은 핫딜타임!</strong>
+                                        <p class="dsc">예쁜여름 준비해~</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sort-item">
+                                <a href="" class="item-thumbwrap">
+                                    <div class="item-thumb img-bd">
+                                        <img src="assets/images/item10.jpg" alt="" class="item-img">
+                                    </div>
+                                    <div href="" class="item-info">
+                                        <strong class="title">2만장! 돌파~</strong>
+                                        <p class="dsc">2만원대매직 치마</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sort-item">
+                                <a href="" class="tem-thumb wrap">
+                                    <div class="item-thumb img-bd">
+                                        <img src="assets/images/item11.jpg" alt="" class="item-img">
+                                    </div>
+                                    <div href="" class="item-info">
+                                        <strong class="title">인기 BEST 쿠션</strong>
+                                        <p class="dsc">5/15일까지만 50%</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sort-item">
+                                <a href="" class="tem-thumb wrap" class="item-thumbwrap">
+                                    <div class="item-thumb img-bd">
+                                        <img src="assets/images/item12.jpg" alt="" class="item-img">
+                                    </div>
+                                    <div href="" class="item-info">
+                                        <strong class="title">5월 특가오픈!</strong>
+                                        <p class="dsc">14K 최대 30%할인</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="page page-bottom">
+                            <a href="" class="btn prev"><span class="blind">이전</span></a>
+                            <span class="page-num">
+                                <em class="current-num">1</em>
+                                / 18
+                            </span>
+                            <a href="" class="btn next"><span class="blind">다음</span></a>
+                        </div>
+                    </div>
+                    <div class="shop-news">
+                        <div class="shopnews-title">
+                            <h2 class="title">반갑다! 쇼핑뉴스</h2>
+                            <div class="page page-top">
+                                <span class="page-num">
+                                    <em class="current-num">1</em>
+                                    / 6
+                                </span>
+                                <a href="" class="btn prev"><span class="blind">이전</span></a>
+                                <a href="" class="btn next"><span class="blind">다음</span></a>
+                            </div>
+                        </div>
+                        <ul class="shopnews-area">
+                            <li class="shopnews-wrap">
+                                <a href="" class="shopnews-event">
+                                    <em class="title">유니프랜드</em>
+                                    <p class="dec">타임특가 4,900원 실속구매1+1+1</p>
+                                </a>
+                            </li>
+                            <li class="shopnews-wrap">
+                                <a href="" class="shopnews-event">
+                                    <em class="title">닥터에비던스</em>
+                                    <p class="dec">의사가 만든 근거기반다이어트</p>
+                                </a>
+                            </li>
+                            <li class="shopnews-wrap">
+                                <a href="" class="shopnews-event">
+                                    <em class="title">민지콩</em>
+                                    <p class="dec">찾았다!인생코디 매일신상7%discount</p>
+                                </a>
+                            </li>
+                            <li class="shopnews-wrap">
+                                <a href="" class="shopnews-event">
+                                    <em class="title">라라스윗</em>
+                                    <p class="dec">생우유 50%함유 모나카 최대41%↓</p>
+                                </a>
+                            </li>
+                            <li class="shopnews-wrap">
+                                <a href="" class="shopnews-event">
+                                    <em class="title">패션플러스</em>
+                                    <p class="dec">핏플랍/솔트워터 국내발송파격특가</p>
+                                </a>
+                            </li>
+                            <li class="shopnews-wrap">
+                                <a href="" class="shopnews-event">
+                                    <em class="title">견사돌</em>
+                                    <p class="dec">치석~눈,관절까지 복합기능성영양제</p>
+                                </a>
+                            </li>
+                            <li class="shopnews-wrap">
+                                <a href="" class="shopnews-event">
+                                    <em class="title">포켓도시락</em>
+                                    <p class="dec">식단스트레스NO! 저칼로리한끼식단</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shopplus">
+                        <div class="shop-category">
+                            <a href="" class="cate">패션</a>
+                            <a href="" class="cate">라이프</a>
+                            <a href="" class="cate">뷰티</a>
+                            <a href="" class="cate">디지털·레저</a>
+                        </div>
+                        <div class="page page-top">
+                            <span class="page-num">
+                                <em class="current-num">1</em>
+                                / 10
+                            </span>
+                            <a href="" class="btn prev"><span class="blind">이전</span></a>
+                            <a href="" class="btn next"><span class="blind">다음</span></a>
+                        </div>
+                        <div class="shopplus-wrap">
+                            <ul class="shopplus-item">
+                                <li class="shopplus-goods">
+                                    <a href="" class="shopplus-thumbwrap">
+                                        <div class="shopplus-thumb img-bd">
+                                            <img src="./assets/images/plus01.jpg" alt="" class="shopplus-img">
+                                        </div>
+                                        <div href="" class="goods-title"><strong class="title">시원하고 쾌적한 조거팬츠</strong>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="shopplus-goods">
+                                    <a href="" class="shopplus-thumbwrap">
+                                        <div class="shopplus-thumb img-bd">
+                                            <img src="./assets/images/plus02.jpg" alt="" class="shopplus-img">
+                                        </div>
+                                        <div href="" class="goods-title"><strong class="title">특별한그녀사랑스런 패션</strong>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="plusdeal">
+                        <div class="plusdeal-title">
+                            <h2 class="title"><a href="" class="plusdeal-logo"><span class="blind">원쁠딜</span></a>원쁠딜 전
+                                상품 무료배송!</h2>
+                            <div class="page page-top">
+                                <span class="page-num">
+                                    <em class="current-num">1</em>
+                                    / 10
+                                </span>
+                                <a href="" class="btn prev"><span class="blind">이전</span></a>
+                                <a href="" class="btn next"><span class="blind">다음</span></a>
+                            </div>
+                        </div>
+                        <div class="plusdeal-wrap">
+                            <ul class="plusdeal-item">
+                                <li class="plusdeal-goods">
+                                    <a href="" class="plusdeal-thumbwrap">
+                                        <div class="plusdeal-thumb plusdeal-lefthumb img-bd"><img
+                                                src="./assets/images/oneplus01.jpg" alt="" class="plusdeal-leftimg">
+                                        </div>
+                                        <div class="plusdeal-thumb plusdeal-rightthumb img-bd"><img
+                                                src="./assets/images/oneplus02.jpg" alt="" class="plusdeal-rightimg">
+                                        </div>
+                                        <div href="" class="plusdeal-dsc">
+                                            <p class="title">트라몬티나 우드 커트러리 홈카페 캠핑 티스푼 1개+1개 외</p>
+                                            <em class="discount">78%</em>
+                                            <strong class="price">5,500원</strong>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="plusdeal-goods">
+                                    <a href="" class="plusdeal-thumbwrap">
+                                        <div class="plusdeal-thumb plusdeal-lefthumb img-bd"><img
+                                                src="./assets/images/oneplus03.jpg" alt="" class="plusdeal-leftimg">
+                                        </div>
+                                        <div class="plusdeal-thumb plusdeal-rightthumb img-bd"><img
+                                                src="./assets/images/oneplus04.jpg" alt="" class="plusdeal-rightimg">
+                                        </div>
+                                        <div href="" class="plusdeal-dsc">
+                                            <p class="title">핫도그와 피자를 한 번에 즐기는 피도그 5개+5개 (총10개)</p>
+                                            <em class="discount">41%</em>
+                                            <strong class="price">15,900원</strong>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="plusdeal-goods">
+                                    <a href="" class="plusdeal-thumbwrap">
+                                        <div class="plusdeal-thumb plusdeal-lefthumb img-bd"><img
+                                                src="./assets/images/oneplus05.jpg" alt="" class="plusdeal-leftimg">
+                                        </div>
+                                        <div class="plusdeal-thumb plusdeal-rightthumb img-bd"><img
+                                                src="./assets/images/oneplus06.jpg" alt="" class="plusdeal-rightimg">
+                                        </div>
+                                        <div href="" class="plusdeal-dsc">
+                                            <p class="title">스테비아 토망고 샤인마토 1팩+1팩</p>
+                                            <em class="discount">24%</em>
+                                            <strong class="price">13,500원</strong>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div><!-- //right-area -->
+    </main>
+    <footer class="footer-area">
+        <div class="footer-inner inner">
+            <div class="footer-banner-area">
+                <ul class="banner-wrap">
+                    <li class="banner-item">
+                        <a href="" class="banner-item-wrap">
+                            <div class="banner-thumb img-bd">
+                                <img src="./assets/images/banner03.png" alt="" class="banner-img">
+                            </div>
+                            <div class="banner-info">
+                                <em class="banner-subtitle">중소기억중앙회</em>
+                                <strong class="banner-title">제34회 중소기업주간</strong>
+                                <span class="dsc">5. 16 ~ 5. 20</span>
+                                <span class="dsc2">전국 17개시도 동시 개최</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="banner-item">
+                        <a href="" class="banner-item-wrap">
+                            <div class="banner-thumb img-bd">
+                                <img src="./assets/images/banner04.png" alt="" class="banner-img">
+                            </div>
+                            <div class="banner-info">
+                                <em class="banner-subtitle">한국문화재재단</em>
+                                <strong class="banner-title">2022 봄 궁중문화축전</strong>
+                                <span class="dsc">오늘, 궁을 만나다</span>
+                                <span class="dsc2">5.10.~5.22.</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="banner-item">
+                        <a href="" class="banner-item-wrap">
+                            <div class="banner-thumb img-bd">
+                                <img src="./assets/images/banner05.jpg" alt="" class="banner-img">
+                            </div>
+                            <div class="banner-info">
+                                <em class="banner-subtitle">온스테이지 2.0</em>
+                                <strong class="banner-title">베리코이버니</strong>
+                                <span class="dsc">걸리쉬한 하이틴</span>
+                                <span class="dsc2">감성 로커, 베리코이버니</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="notice-area">
+                <a href="" class="notice-wrap"><em class="notice">공지사항</em></a>
+                <a href="" class="service-wrap"><em class="service">서비스 전체보기</em></a>
+            </div>
+            <div class="aside-area">
+                <div class="aside-left">
+                    <div class="left-content creator-box">
+                        <h3 class="title">Creators</h3>
+                        <a href="" class="link">크리에이터</a>
+                        <a href="" class="link">스몰비즈니스</a>
+                    </div>
+                    <div class="left-content partner-box">
+                        <h3 class="title">Partners</h3>
+                        <a href="" class="link">SME 풀케어 시스템</a>
+                        <a href="" class="link">비즈니스 · 광고</a>
+                        <a href="" class="link">스토어 개설</a>
+                        <a href="" class="link">지역업체 등록</a>
+                        <a href="" class="link">엑스퍼트 등록</a>
+                    </div>
+                    <div class="left-content developer-box">
+                        <h3 class="title">Developers</h3>
+                        <a href="" class="link">네이버 개발자 센터</a>
+                        <a href="" class="link">오픈 API</a>
+                        <a href="" class="link">오픈소스</a>
+                        <a href="" class="link">네이버 D2</a>
+                        <a href="" class="link">네이버 D2SF</a>
+                        <a href="" class="link">네이버 랩스</a>
+                    </div>
+                </div>
+                <div class="aside-right">
+                    <div class="aside-service">
+                        <div class="service-info">
+                            <h3 class="title">웨일 브라우저</h3>
+                            <a href="" class="dsc">다운받기</a>
+                        </div>
+                        <a href="" class="service-img-wrap"><img src="./assets/images/service01.png" alt="" class="service-img"></a>
+                    </div>
+                    <div class="aside-service">
+                        <div class="service-info">
+                            <h3 class="title">프로젝트 꽃</h3>
+                            <a href="" class="dsc">바로가기</a>
+                        </div>
+                        <a href="" class="service-img-wrap"><img src="./assets/images/service02.png" alt="" class="service-img"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="corp-area">
+                <a href="" class="corp-item">회사소개</a>
+                <a href="" class="corp-item">인재채용</a>
+                <a href="" class="corp-item">제휴제안</a>
+                <a href="" class="corp-item">이용약관</a>
+                <a href="" class="corp-item"><em class="">개인정보처리방침</em></a>
+                <a href="" class="corp-item">청소년보호정책</a>
+                <a href="" class="corp-item">네이버 정책</a>
+                <a href="" class="corp-item">고객센터</a>
+                <address href="" class="addr"><a href="">&copy; NAVER Corp.</a></address>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
